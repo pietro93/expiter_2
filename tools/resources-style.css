@@ -1,0 +1,58 @@
+
+.form-row>div>label{
+  font-size:18px;
+  color:var(--medium-2);
+  margin-left:2px;
+  float:left;
+  margin-bottom:0;
+  font-weight:600
+}
+
+h1.title{color:var(--darkest);
+margin-bottom:3px}
+h2,h2.title{
+  padding-bottom:0px;
+  padding-top:5px;
+  margin-top:21px;
+  color:var(--dark);
+  font-size:20px;
+}
+
+
+.button{
+  padding:5px;
+  padding-right:8px;
+  background-color:var(--medium-1);
+  border-radius:8px;
+  text-transform:uppercase;
+  opacity:0.85;
+  font-size:15px;
+  letter-spacing:.5px
+}
+
+@media only screen and (min-width: 768px){
+  .button,.codice{max-width:300px;}
+}
+@media only screen and (max-width: 768px){
+  label > br{display:none}
+}
+.subtitle{
+  font-size:18px;
+  text-align:center;
+  width:100%;
+}
+
+#navbar .menu-items{
+  margin-top:2vh;
+}
+
+div.container.card {
+  padding-top:15px;
+  padding-bottom:15px;
+  background-color:white;
+  
+}
+
+div.container.card,div.container.card *{
+  border-radius:10px;
+}
